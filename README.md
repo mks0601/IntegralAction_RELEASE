@@ -143,7 +143,7 @@ to test IntegralAction in `$STAGE` stage (should be one of [`rgb_only`, `pose_on
 ## Results  
 Here I report the performance of the IntegralAction.  
 <p align="center">
-<img src="assets/comparison_sota_kinetics_mimetics.png" width="160" height="260"><img src="assets/comparison_sota_ntu.png" width="160" height="260">
+<img src="assets/comparison_sota_kinetics_mimetics.png" width="200" height="260"><img src="assets/comparison_sota_ntu.png" width="200" height="260">
 </p>
 
 #### Kinetics50 
