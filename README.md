@@ -116,7 +116,7 @@ mkdir ../output/model_dump/pose_only
 mv ../output/model_dump/snapshot_*.pth.tar ../output/model_dump/pose_only/.
 ```  
 
-#### 2. `rgb+pose` stage
+#### 3. `rgb+pose` stage
 In the `tool` folder, run
 ```bash  
 cp ../output/model_dump/rgb_only/snapshot_29.pth.tar snapshot_29_rgb_only.pth.tar
@@ -143,11 +143,7 @@ to test IntegralAction in `$STAGE` stage (should be one of [`rgb_only`, `pose_on
 ## Results  
 Here I report the performance of the IntegralAction.  
 <p align="center">
-<img src="assets/comparison_sota_kinetics_mimetics.png">
-</p>
-
-<p align="center">
-<img src="assets/comparison_sota_ntu.png">
+<img src="assets/comparison_sota_kinetics_mimetics.png" width="160" height="260"><img src="assets/comparison_sota_ntu.png" width="160" height="260">
 </p>
 
 #### Kinetics50 
