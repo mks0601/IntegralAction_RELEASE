@@ -6,7 +6,7 @@
 
 
 ## Introduction  
-This repo is official **[PyTorch](https://pytorch.org)** implementation of **[IntegralAction: Pose-driven Feature Integration for Robust Human Action Recognition in Videos (CVPRW 2021)](https://arxiv.org/abs/2007.06317)**. 
+This repo is official **[PyTorch](https://pytorch.org)** implementation of **[IntegralAction: Pose-driven Feature Integration for Robust Human Action Recognition in Videos (CVPRW 2021. Oral.)](https://arxiv.org/abs/2007.06317)**. 
   
   
 ## Directory  
