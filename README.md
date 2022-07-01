@@ -52,9 +52,9 @@ ${ROOT}
 |   |   |   |-- NTU_train.json
 |   |   |   |-- NTU_test.json
 ```  
-* Download Kinetics parsed data [[data](https://drive.google.com/drive/folders/1BT4O0yR5VpZj7RunVS3Z1v42XW0ajNv1?usp=sharing)] [[website](https://deepmind.com/research/open-source/kinetics)]
-* Download Mimetics parsed data [[data](https://drive.google.com/drive/folders/122BwP65zZrgmlZZPsfjvJAz4DgwDNFen?usp=sharing)] [[website](https://europe.naverlabs.com/research/computer-vision/mimetics/)]
-* Download NTU parsed data [[data](https://drive.google.com/drive/folders/1l0MFggL8jle7i09wbRx6XoW423HzRZS0?usp=sharing)] [[website](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)]
+* Download Kinetics parsed data [[data](https://drive.google.com/drive/folders/1UKurcyn4D3X_lQGefEM38sL7KUJx8ac7?usp=sharing)] [[website](https://deepmind.com/research/open-source/kinetics)]
+* Download Mimetics parsed data [[data](https://drive.google.com/drive/folders/1UKurcyn4D3X_lQGefEM38sL7KUJx8ac7?usp=sharing)] [[website](https://europe.naverlabs.com/research/computer-vision/mimetics/)]
+* Download NTU parsed data [[data](https://drive.google.com/drive/folders/1F89ScwGMOzpX46hC5YgIDF_uTgL5o4fT?usp=sharing)] [[website](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)]
 * All annotation files follow [MS COCO format](http://cocodataset.org/#format-data).  
 * If you want to add your own dataset, you have to convert it to [MS COCO format](http://cocodataset.org/#format-data).  
   
@@ -147,7 +147,7 @@ Here I report the performance of the IntegralAction.
 </p>
 
 #### Kinetics50 
-* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/19CLPATOAwb42k50pt8oRl7AAZy2xHXJl/view?usp=sharing)].
+* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/1TvLaoVwofYiD-GhFylO79D5ZZ7p2B4F-/view?usp=sharing)].
 * Kinetics50 is a subset of Kinetics400. It mainly contains videos with human motion-related action classes, sampled from Kinetics400.
 ```
 (base) mks0601:~/workspace/IntegralAction/main$ python test.py --gpu 5-6 --mode rgb+pose --test_epoch 29
@@ -166,7 +166,7 @@ Top-5 accuracy: 92.2735
 Result is saved at: ../output/result/kinetics_result.json
 ```
 #### Mimetics
-* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/19CLPATOAwb42k50pt8oRl7AAZy2xHXJl/view?usp=sharing)].
+* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/1TvLaoVwofYiD-GhFylO79D5ZZ7p2B4F-/view?usp=sharing)].
 * Kinetics50 is a subset of Kinetics400. It mainly contains videos with human motion-related action classes, sampled from Kinetics400.
 * Note that Mimetics is used only for the testing purpose.
 ```
