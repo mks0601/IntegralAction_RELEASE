@@ -137,7 +137,7 @@ Here I report the performance of the IntegralAction.
 </p>
 
 #### Kinetics50 
-* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/1TvLaoVwofYiD-GhFylO79D5ZZ7p2B4F-/view?usp=sharing)].
+* Download IntegralAction trained on [[Kinetics50](https://1drv.ms/u/s!All7gdNh7XE5oGowZaY0Y-uKOHr8?e=Vj0xNm)].
 * Kinetics50 is a subset of Kinetics400. It mainly contains videos with human motion-related action classes, sampled from Kinetics400.
 ```
 (base) mks0601:~/workspace/IntegralAction/main$ python test.py --gpu 5-6 --mode rgb+pose --test_epoch 29
@@ -156,7 +156,7 @@ Top-5 accuracy: 92.2735
 Result is saved at: ../output/result/kinetics_result.json
 ```
 #### Mimetics
-* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/1TvLaoVwofYiD-GhFylO79D5ZZ7p2B4F-/view?usp=sharing)].
+* Download IntegralAction trained on [[Kinetics50](https://1drv.ms/u/s!All7gdNh7XE5oGowZaY0Y-uKOHr8?e=Vj0xNm)].
 * Kinetics50 is a subset of Kinetics400. It mainly contains videos with human motion-related action classes, sampled from Kinetics400.
 * Note that Mimetics is used only for the testing purpose.
 ```
