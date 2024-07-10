@@ -52,12 +52,22 @@ ${ROOT}
 |   |   |   |-- NTU_train.json
 |   |   |   |-- NTU_test.json
 ```  
-* Download Kinetics parsed data [[data](https://1drv.ms/f/s!All7gdNh7XE5lhOXzodom10c4Qp5?e=iPy5x7)] [[website](https://deepmind.com/research/open-source/kinetics)]
-* Download Mimetics parsed data [[data](https://1drv.ms/f/s!All7gdNh7XE5lhco_7mdux62Wzto?e=DU1djz)] [[website](https://europe.naverlabs.com/research/computer-vision/mimetics/)]
-* Download NTU parsed data [[data](https://1drv.ms/f/s!All7gdNh7XE5lh7Nhw9eZyhgrQ-3?e=lK4WGB)] [[website](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)]
+* Download Kinetics parsed data [[data](https://drive.google.com/drive/folders/1UKurcyn4D3X_lQGefEM38sL7KUJx8ac7?usp=sharing)] [[website](https://deepmind.com/research/open-source/kinetics)]
+* Download Mimetics parsed data [[data](https://drive.google.com/drive/folders/1UKurcyn4D3X_lQGefEM38sL7KUJx8ac7?usp=sharing)] [[website](https://europe.naverlabs.com/research/computer-vision/mimetics/)]
+* Download NTU parsed data [[data](https://drive.google.com/drive/folders/1F89ScwGMOzpX46hC5YgIDF_uTgL5o4fT?usp=sharing)] [[website](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)]
 * All annotation files follow [MS COCO format](http://cocodataset.org/#format-data).  
 * If you want to add your own dataset, you have to convert it to [MS COCO format](http://cocodataset.org/#format-data).  
   
+  
+To download multiple files from Google drive without compressing them, try [this](https://chrome.google.com/webstore/detail/drive-multiple-downloader/baolodbihgboogdhkikimhadihambecp).
+If you have a problem with 'Download limit' problem when tried to download dataset from google drive link, please try this trick.  
+```  
+* Go the shared folder, which contains files you want to copy to your drive  
+* Select all the files you want to copy  
+* In the upper right corner click on three vertical dots and select “make a copy”  
+* Then, the file is copied to your personal google drive account. You can download it from your personal account.  
+```  
+    
 ### Output  
 You need to follow the directory structure of the `output` folder as below.  
 ```  
@@ -137,7 +147,7 @@ Here I report the performance of the IntegralAction.
 </p>
 
 #### Kinetics50 
-* Download IntegralAction trained on [[Kinetics50](https://1drv.ms/u/s!All7gdNh7XE5oGowZaY0Y-uKOHr8?e=Vj0xNm)].
+* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/1TvLaoVwofYiD-GhFylO79D5ZZ7p2B4F-/view?usp=sharing)].
 * Kinetics50 is a subset of Kinetics400. It mainly contains videos with human motion-related action classes, sampled from Kinetics400.
 ```
 (base) mks0601:~/workspace/IntegralAction/main$ python test.py --gpu 5-6 --mode rgb+pose --test_epoch 29
@@ -156,7 +166,7 @@ Top-5 accuracy: 92.2735
 Result is saved at: ../output/result/kinetics_result.json
 ```
 #### Mimetics
-* Download IntegralAction trained on [[Kinetics50](https://1drv.ms/u/s!All7gdNh7XE5oGowZaY0Y-uKOHr8?e=Vj0xNm)].
+* Download IntegralAction trained on [[Kinetics50](https://drive.google.com/file/d/1TvLaoVwofYiD-GhFylO79D5ZZ7p2B4F-/view?usp=sharing)].
 * Kinetics50 is a subset of Kinetics400. It mainly contains videos with human motion-related action classes, sampled from Kinetics400.
 * Note that Mimetics is used only for the testing purpose.
 ```
@@ -187,6 +197,5 @@ Result is saved at: ../output/result/mimetics_result.json
   year={2021}
 }
 ```
-
 
 
