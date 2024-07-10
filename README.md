@@ -52,8 +52,8 @@ ${ROOT}
 |   |   |   |-- NTU_train.json
 |   |   |   |-- NTU_test.json
 ```  
-* Download Kinetics parsed data [[data](https://drive.google.com/drive/folders/1UKurcyn4D3X_lQGefEM38sL7KUJx8ac7?usp=sharing)] [[website](https://deepmind.com/research/open-source/kinetics)]
-* Download Mimetics parsed data [[data](https://drive.google.com/drive/folders/1UKurcyn4D3X_lQGefEM38sL7KUJx8ac7?usp=sharing)] [[website](https://europe.naverlabs.com/research/computer-vision/mimetics/)]
+* Download Kinetics parsed data [[data](https://drive.google.com/drive/folders/1oSGH-B9dx9S_eeLX0wXjnfd2G00f6UO7?usp=sharing)] [[website](https://deepmind.com/research/open-source/kinetics)]
+* Download Mimetics parsed data [[data](https://drive.google.com/drive/folders/1Vw8bkWbXw5OERwph-6HEIN8-lPEdWkeW?usp=sharing)] [[website](https://europe.naverlabs.com/research/computer-vision/mimetics/)]
 * Download NTU parsed data [[data](https://drive.google.com/drive/folders/1F89ScwGMOzpX46hC5YgIDF_uTgL5o4fT?usp=sharing)] [[website](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp)]
 * All annotation files follow [MS COCO format](http://cocodataset.org/#format-data).  
 * If you want to add your own dataset, you have to convert it to [MS COCO format](http://cocodataset.org/#format-data).  
